@@ -76,5 +76,10 @@ SELECT kelime
 FROM kelimeler
 WHERE REGEXP_LIKE(kelime, '^ho|^hi');
     
-    
+-- NOT : [!-~] = Butun karakterleri ifade eder.
+--       [a-zA-Z0-9] = Harf ve rakamlari temsil eder.
+--     Q3 : h ile baslayip t ile biten 3 harfli kelimeleri 
+--      (h ile t kucuk harfli olanlari) listeleyiniz   
+
+
     
