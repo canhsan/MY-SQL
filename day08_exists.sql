@@ -1,3 +1,11 @@
+
+/* ======================== EXISTS CONDITION ===========================
+EXISTS Condition subquery'ler ile kullanilir. IN ifadesinin kullanimina
+benzer olarak, EXISTS ve NOT EXISTS ifadeleri de alt sorgudan getirilen 
+degerlerin icerisinde bir degerin olmasi veya olmamasi durumunda islem 
+yapilmasini saglar.
+======================================================================*/
+
 use sys;
 
 CREATE TABLE mayis_satislar
